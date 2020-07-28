@@ -3,9 +3,9 @@ include_once "includes/header.php";
 ?>
     <div class="row">
         <div class="col s12 m6 push-m3">
-            <h3 class="light"> Novo local </h3>
+            <h3 class="light" id="light"> Novo local </h3>
 
-            <form action="php_action/create.php" method="post">
+            <form action="action/create.php" method="post">
                 <div class="input-field col s12">
                     <input type="text" name="nome" id="nome" required>
                     <label for="nome"> Nome <sub>*</sub></label>
@@ -51,11 +51,10 @@ include_once "includes/header.php";
                     <label for="data"> Data <sub>*</sub></label>
                 </div>
 
-                <button type="submit" name="btn-cadastrar" class="btn"> Cadastrar </button>
+                <button type="submit" name="btn-cadastrar" class="btn" id="btn"> Cadastrar </button>
                 <a href="index.php" type="submit" class="btn green"> Lista de locais </a>
 
             </form>
-
         </div>
     </div>
 

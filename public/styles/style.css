@@ -9,7 +9,7 @@ sub {
     background-color: #cc9933;
 }
 
-.active {
-    color:#ffffff;
-    background-color: #2f7fae;
+#light {
+    text-align: center;
+    margin: 32px;
 }

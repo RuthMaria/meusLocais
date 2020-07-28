@@ -1,5 +1,5 @@
 <?php
-include_once "php_action/db_connect.php";
+include_once "action/db_connect.php";
 include_once "includes/header.php";
 
 if (isset($_GET['id'])):
@@ -11,9 +11,9 @@ endif;
 ?>
     <div class="row">
         <div class="col s12 m6 push-m3">
-            <h3 class="light"> Editar local </h3>
+            <h3 class="light" id="light"> Editar local </h3>
 
-            <form action="php_action/update.php" method="post">
+            <form action="action/update.php" method="post">
 
                 <input type="hidden" name="id" value="<?php echo $dados['id']; ?>">
 
