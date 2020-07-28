@@ -27,7 +27,7 @@ A simple CRUD that shows the locations and the date.
 
 ## :eyes: View project execution
 
-![video](https://github.com/RuthMaria/meusLocais/tree/master/.github/video.gif)
+![video](https://github.com/RuthMaria/meusLocais/blob/master/github/video.gif)
 
 <a id="technologies"></a><br>
 
